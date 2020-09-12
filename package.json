@@ -1,13 +1,13 @@
 {
   "name": "Intro-Nightwatch",
   "version": "1.0.0",
-  "description": "",
+  "description": "Demo Nightwatch Framework",
   "main": "index.js",
   "scripts": {
     "test": "nightwatch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Bharath",
   "license": "ISC",
   "devDependencies": {
     "chromedriver": "^84.0.1",
