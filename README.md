@@ -1,9 +1,10 @@
-# nightwatch.js
+# nightwatch.js and Cucumber
 
 ## Pre-requisites
 * Node.js
 * Npm
 * Nightwatch.js
+* Cucumber
 
 Running the test:
 1. clone the project

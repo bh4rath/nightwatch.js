@@ -4,13 +4,17 @@
   "description": "Demo Nightwatch Framework",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch"
+    "test": "mkdirp report && cucumber-js --require cucumber.conf.js --require step-definitions --format node_modules/cucumber-pretty --format json:report/cucumber_report.json"
   },
   "keywords": [],
   "author": "Bharath",
   "license": "ISC",
   "devDependencies": {
     "chromedriver": "^84.0.1",
-    "nightwatch": "^1.3.7"
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "cucumber-pretty": "^6.0.0",
+    "nightwatch": "^1.4.2",
+    "nightwatch-api": "^3.0.1"
   }
 }
